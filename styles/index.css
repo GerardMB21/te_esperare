@@ -7,6 +7,7 @@
 }
 
 .index .contain{
+  max-width: 90vw;
   position: relative;
   height: 100vh;
   display: flex;
@@ -29,7 +30,6 @@
 }
 
 .index .contain .sectionBx section p{
-  margin: 0;
   text-align: center;
   color: #222;
 }

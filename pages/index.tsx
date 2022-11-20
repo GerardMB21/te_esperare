@@ -13,33 +13,39 @@ export default function Home() {
     <div className="index">
       <div className="contain">
         <div className="sectionBx">
-          <section className="instagram">
-            <div className="imgBx">
-              <Image
-                src={Instagram}
-                alt='Instagram'
-              />
-            </div>
-            <p>Instagram</p>
-          </section>
-          <section className="podcast">
-            <div className="imgBx">
-              <Image
-                src={Podcast}
-                alt='Podcast'
-              />
-            </div>
-            <p>Podcast</p>
-          </section>
-          <section className="makingof">
-            <div className="imgBx">
-              <Image
-                src={Microphone}
-                alt='Microphone'
-              />
-            </div>
-            <p>Making of</p>
-          </section>
+          <Link href={"instagram"}>
+            <section className="instagram">
+              <div className="imgBx">
+                <Image
+                  src={Instagram}
+                  alt='Instagram'
+                />
+              </div>
+              <p>Instagram</p>
+            </section>
+          </Link>
+          <Link href={"podcast"}>
+            <section className="podcast">
+              <div className="imgBx">
+                <Image
+                  src={Podcast}
+                  alt='Podcast'
+                />
+              </div>
+              <p>Podcast</p>
+            </section>
+          </Link>
+          <Link href={"making_of"}>
+            <section className="makingof">
+              <div className="imgBx">
+                <Image
+                  src={Microphone}
+                  alt='Microphone'
+                />
+              </div>
+              <p>Making of</p>
+            </section>
+          </Link>
         </div>
         <div className="imgBx aparition">
           <Link href={"/about_us"}>
@@ -50,33 +56,39 @@ export default function Home() {
           </Link>
         </div>
         <div className="sectionBx">
-          <section className="miniserie">
-            <div className="imgBx">
-              <Image
-                src={Miniserie}
-                alt='Miniserie'
-              />
-            </div>
-            <p>Miniserie</p>
-          </section>
-          <section className="premier">
-            <div className="imgBx">
-              <Image
-                src={Premier}
-                alt='Premier'
-              />
-            </div>
-            <p>Premier</p>
-          </section>
-          <section className="twitter">
-            <div className="imgBx">
-              <Image
-                src={Twitter}
-                alt='Twitter'
-              />
-            </div>
-            <p>Twitter</p>
-          </section>
+          <Link href={"/miniserie"}>
+            <section className="miniserie">
+              <div className="imgBx">
+                <Image
+                  src={Miniserie}
+                  alt='Miniserie'
+                />
+              </div>
+              <p>Miniserie</p>
+            </section>
+          </Link>
+          <Link href={"/premier"}>
+            <section className="premier">
+              <div className="imgBx">
+                <Image
+                  src={Premier}
+                  alt='Premier'
+                />
+              </div>
+              <p>Premier</p>
+            </section>
+          </Link>
+          <Link href={"/twitter"}>
+            <section className="twitter">
+              <div className="imgBx">
+                <Image
+                  src={Twitter}
+                  alt='Twitter'
+                />
+              </div>
+              <p>Twitter</p>
+            </section>
+          </Link>
         </div>
       </div>
     </div>
