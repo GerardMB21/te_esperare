@@ -1,0 +1,51 @@
+.about_us{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+
+.about_us .contain{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_us .imgBx{
+  width: 90vw;
+}
+
+.about_us .contain .imgBx.up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: up 2.5s linear;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+@keyframes up {
+  0%{
+    transform: translateY(calc(+50vh - 75px));
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 850px) {
+
+  @keyframes up {
+    0%{
+      transform: translateY(calc(+100vh - 300px));
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  
+}

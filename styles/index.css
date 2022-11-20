@@ -1,36 +1,153 @@
 .index{
-  width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .index .contain{
-  width: 100vw;
+  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  justify-content: space-between;
 }
 
-.index .contain .imgBx{
-  animation: up 2.5s linear;
+.index .contain .sectionBx{
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  width: 90vw;
 }
 
-@keyframes up {
+.index .contain .sectionBx section{
+  position: absolute;
+  cursor: pointer;
+  animation: aparitionTwo 5s linear;
+}
+
+.index .contain .sectionBx section p{
+  margin: 0;
+  text-align: center;
+  color: #222;
+}
+
+.index .contain .sectionBx section.instagram{
+  top: 0;
+  left: 0;
+}
+
+.index .contain .sectionBx section.podcast{
+  top: +5rem;
+  left: calc(50% - 40px);
+}
+
+.index .contain .sectionBx section.makingof{
+  top: 0;
+  right: 0;
+}
+
+.index .contain .sectionBx section.miniserie{
+  bottom: 0;
+  left: 0;
+}
+
+.index .contain .sectionBx section.premier{
+  bottom: +8rem;
+  left: calc(50% - 40px);
+}
+
+.index .contain .sectionBx section.twitter{
+  bottom: +5rem;
+  right: 0;
+}
+
+.index .contain .sectionBx section .imgBx{
+  width: 80px;
+}
+
+.index .contain .imgBx.aparition{
+  animation: aparition 2s linear;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+@keyframes aparition {
   0%{
-    transform: translateY(+200%);
+    transform: scale(0.75);
     opacity: 0;
   }
   100%{
-    transform: translateY(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes aparitionTwo {
+  0%{
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
     opacity: 1;
   }
 }
 
 .index .imgBx{
-  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+}
+
+@media only screen and (min-width: 850px) {
+
+  .index .contain{
+    height: 1200px;
+  }
+
+  .index .contain .sectionBx{
+    width: 80vw;
+  }
+
+  .index .contain .sectionBx section .imgBx{
+    width: 160px;
+  }
+
+  .index .contain .sectionBx section.instagram{
+    top: 0;
+    left: 0;
+  }
+  
+  .index .contain .sectionBx section.podcast{
+    top: +15rem;
+    left: calc(50% - 80px);
+  }
+  
+  .index .contain .sectionBx section.makingof{
+    top: +5rem;
+    right: 0;
+  }
+  
+  .index .contain .sectionBx section.miniserie{
+    bottom: 0;
+    left: 0;
+  }
+  
+  .index .contain .sectionBx section.premier{
+    bottom: +15rem;
+    left: calc(50% - 80px);
+  }
+  
+  .index .contain .sectionBx section.twitter{
+    bottom: +5rem;
+    right: 0;
+  }
 }

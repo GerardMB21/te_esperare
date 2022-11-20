@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import React from 'react'
+import Bg  from '../public/BG_te_esperare.png'
 
 interface Props {
   children: JSX.Element
