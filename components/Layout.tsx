@@ -10,6 +10,8 @@ import Microphone from "../public/microphone_te_esperare.png"
 import Miniserie from "../public/camera_te_esperare.png"
 import Premier from "../public/ticket_te_esperare.png"
 import Twitter from "../public/elon_musk_te_esperare.png"
+import Us from '../public/us_te_esperare.png'
+import Store from '../public/tienda_te_esperare.png'
 
 interface Props {
   children: JSX.Element
@@ -36,7 +38,7 @@ export default function Layout({children}: Props) {
           <div className='toggle' onClick={()=>setToggle(!toggle)}>
             <span className={ toggle ? 'active' : '' }></span>
           </div>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-70px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-90px)" } : {} } >
             <Link href={"instagram"}>
               <div className="imgBx">
                 <Image
@@ -44,9 +46,10 @@ export default function Layout({children}: Props) {
                   alt='Instagram'
                 />
               </div>
+              <p>Instagram</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-140px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-180px)" } : {} } >
             <Link href={"podcast"}>
               <div className="imgBx">
                 <Image
@@ -54,9 +57,10 @@ export default function Layout({children}: Props) {
                   alt='Podcast'
                 />
               </div>
+              <p>Podcast</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-210px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-270px)" } : {} } >
             <Link href={"making_of"}>
               <div className="imgBx">
                 <Image
@@ -64,9 +68,10 @@ export default function Layout({children}: Props) {
                   alt='Microphone'
                 />
               </div>
+              <p style={{ fontSize: ".8em" }}>Making Of</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-280px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-360px)" } : {} } >
             <Link href={"twitter"}>
               <div className="imgBx">
                 <Image
@@ -74,9 +79,10 @@ export default function Layout({children}: Props) {
                   alt='Twitter'
                 />
               </div>
+              <p>Twitter</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-350px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-450px)" } : {} } >
             <Link href={"miniserie"}>
               <div className="imgBx">
                 <Image
@@ -84,9 +90,10 @@ export default function Layout({children}: Props) {
                   alt='Miniserie'
                 />
               </div>
+              <p>Miniserie</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-420px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-540px)" } : {} } >
             <Link href={"premier"}>
               <div className="imgBx">
                 <Image
@@ -94,26 +101,29 @@ export default function Layout({children}: Props) {
                   alt='Premier'
                 />
               </div>
+              <p>Premier</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-490px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-630px)" } : {} } >
             <Link href={"ustedes"}>
               <div className="imgBx">
                 <Image
-                  src={Premier}
-                  alt='Premier'
+                  src={Us}
+                  alt='Ustedes'
                 />
               </div>
+              <p>Ustedes</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-560px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-720px)" } : {} } >
             <Link href={"tienda"}>
               <div className="imgBx">
                 <Image
-                  src={Premier}
-                  alt='Premier'
+                  src={Store}
+                  alt='tienda'
                 />
               </div>
+              <p>Tienda</p>
             </Link>
           </span>
         </div>

@@ -266,8 +266,8 @@ p{
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   z-index: 100;
   cursor: pointer;
 }
@@ -277,8 +277,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #b693c5;
   z-index: 100;
@@ -331,8 +331,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #b693c5;
   z-index: -1;
@@ -343,12 +343,37 @@ p{
   z-index: 100;
 }
 
+.menu .links a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .links p{
+  font-size: 1em;
+  display: none;
+  opacity: 0;
+  transition: .5s;
+}
+
 .menu .links .imgBx{
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .5s;
+}
+
+.menu .links a:hover .imgBx{
+  width: 40px;
+  height: 40px;
+}
+
+.menu .links a:hover p{
+  display: inherit;
+  opacity: 1;
 }
 
 .miniseriePage .personajes{
@@ -358,12 +383,9 @@ p{
   justify-content: center;
 }
 
-.carruselBx{
-  width: 90vw;
-}
-
 .carruselBx .imgBx{
-  width: 200px;
+  width: 40vw;
+  border-radius: 1rem;
 }
 
 .carruselBx .personajeBx{
@@ -374,10 +396,83 @@ p{
   gap: 10px;
 }
 
+.carruselBx .personajeBx .bx{
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 5px 5px #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.carruselBx .personajeBx .bx p{
+  min-width: 100px;
+  font-size: 1.25em;
+  background: #ffa0d4;
+  border-radius: 1rem;
+  padding: .3rem 1rem;
+  text-align: center;
+}
+
+.carruselBx .swiper-slide{
+  margin: auto;
+}
+
 .carruselBx .swiper-button-next::after, .carruselBx .swiper-button-prev::after{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 500;
   color: #b693c5;
+}
+
+.miniseriePage .principal_video{
+  width: 100%;
+}
+
+.miniseriePage .principal_video iframe{
+  width: 100%;
+  height: 250px;
+}
+
+.miniseriePage .list_videos{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.miniseriePage .video_item{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+.miniseriePage .video_item .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miniseriePage .video_item .image iframe{
+  width: 100%;
+}
+
+.miniseriePage .video_item .title_and_description p{
+  font-size: 1.25em;
+}
+
+@media only screen and (max-width:850px) {
+  .carruselBx{
+    width: 90vw;
+  }
+
+  .carruselBx .imgBx{
+    width: 200px;
+  }
 }
 
 @media only screen and (min-width: 850px) {
@@ -411,5 +506,25 @@ p{
     width: 400px;
     height: 400px;
   }
-  
+
+  .carruselBx .personajeBx .bx p{
+    font-size: 1.5em;
+    min-width: 200px;
+  }
+
+  .miniseriePage .video_item{
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .miniseriePage .principal_video iframe{
+    height: 500px;
+  }
+
+  .miniseriePage .video_item .image{
+    height: 350px;
+  }
+
+  .miniseriePage .video_item .image iframe{
+    height: 350px;
+  }
 }

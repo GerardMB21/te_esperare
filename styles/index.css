@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 
-.index .contain .imgBx.aparition a{
+.index .contain .imgBx.aparition{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +80,6 @@
 .index .contain .imgBx.aparition{
   animation: aparition 1.5s linear;
   margin-top: 5rem;
-  cursor: pointer;
 }
 
 .index .contain .sectionBx.translateY{
@@ -120,6 +119,10 @@
   width: 90vw;
 }
 
+.index .imgBx.rainbow{
+  width: 30vw;
+}
+
 .index .arcoiris{
   text-align: center;
 }
@@ -141,6 +144,10 @@
 
   .index .contain .sectionBx section .imgBx{
     width: 160px;
+  }
+
+  .index .imgBx.rainbow{
+    width: 10vw;
   }
 
   .index .contain .sectionBx a:nth-child(1) section{
@@ -167,7 +174,7 @@
     transform: translateY(-8rem);
   }
 
-  .index .contain .imgBx.aparition a{
+  .index .contain .imgBx.aparition{
     gap: 2em;
   }
   

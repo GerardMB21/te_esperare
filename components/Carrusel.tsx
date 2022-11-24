@@ -22,7 +22,7 @@ export default function Carrusel({imgs}: Props) {
       <Swiper
         modules={[Navigation,EffectFade]}
         navigation
-        effect='fade'
+        // effect='fade'
         speed={300}
         slidesPerView={1}
         loop
@@ -32,15 +32,17 @@ export default function Carrusel({imgs}: Props) {
         {
           imgs.map((img)=>(
             <SwiperSlide key={img.id}>
-                <div className="personajeBx">
-                    <div className="imgBx">
-                        <Image
-                            src={img.url}
-                            alt={img.description}
-                        />
-                    </div>
-                    <p>{img.description}</p>
+              <div className="personajeBx">
+                <div className="bx">
+                  <div className="imgBx">
+                    <Image
+                        src={img.url}
+                        alt={img.description}
+                    />
+                  </div>
+                  <p>{img.description}</p>
                 </div>
+              </div>
             </SwiperSlide>
           ))
         }

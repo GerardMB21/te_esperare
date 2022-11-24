@@ -6,11 +6,11 @@ export default function Title() {
   return (
     <div className="imgBx up">
       <Link href={"/"}>
-        {/* <Image
+        <Image
           src={Te_Esperare}
           alt='te esperare'
-        /> */}
-        <h2 className="title_name">
+        />
+        {/* <h2 className="title_name">
           <div>T</div>
           <div>E</div>
           <div className="space"></div>
@@ -22,7 +22,7 @@ export default function Title() {
           <div>A</div>
           <div>r</div>
           <div>É</div>
-        </h2>
+        </h2> */}
       </Link>
     </div>
   )

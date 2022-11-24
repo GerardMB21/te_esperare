@@ -6,6 +6,9 @@ import Microphone from "../public/microphone_te_esperare.png"
 import Miniserie from "../public/camera_te_esperare.png"
 import Premier from "../public/ticket_te_esperare.png"
 import Twitter from "../public/elon_musk_te_esperare.png"
+import Us from '../public/us_te_esperare.png'
+import Store from '../public/tienda_te_esperare.png'
+import Rainbow from '../public/rainbow_te_esperare.png'
 import Link from "next/link"
 
 export default function Home() {
@@ -59,12 +62,11 @@ export default function Home() {
           </Link>
         </div>
         <div className="imgBx aparition">
-          <Link href={"/about_us"}>
-            {/* <Image
+            <Image
               src={Te_Esperare}
               alt='te esperare'
-            /> */}
-            <h2 className="title_name">
+            />
+            {/* <h2 className="title_name">
               <div>T</div>
               <div>E</div>
               <div className="space"></div>
@@ -76,8 +78,9 @@ export default function Home() {
               <div>A</div>
               <div>r</div>
               <div>É</div>
-            </h2>
-            <button>NOSOTROS</button>
+            </h2> */}
+            <Link href={"/about_us"}>
+              <button>NOSOTROS</button>
           </Link>
         </div>
         <div className="sectionBx translateY">
@@ -107,7 +110,7 @@ export default function Home() {
             <section className="twitter">
               <div className="imgBx">
                 <Image
-                  src={Twitter}
+                  src={Us}
                   alt='ustedes'
                 />
               </div>
@@ -118,7 +121,7 @@ export default function Home() {
             <section className="twitter">
               <div className="imgBx">
                 <Image
-                  src={Twitter}
+                  src={Store}
                   alt='Tienda'
                 />
               </div>
@@ -127,8 +130,14 @@ export default function Home() {
           </Link>
         </div>
         <div className="arcoiris">
-          <p>ARCOIRIS</p>
-          <p>production</p>
+          <div className="imgBx rainbow">
+            <Image
+              src={Rainbow}
+              alt='arcoiris producciones'
+            />
+          </div>
+          {/* <p>ARCOIRIS</p>
+          <p>production</p> */}
         </div>
       </div>
     </div>
