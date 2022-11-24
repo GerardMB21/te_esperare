@@ -46,39 +46,7 @@ export default function Home() {
               <p>Making of</p>
             </section>
           </Link>
-        </div>
-        <div className="imgBx aparition">
-          <Link href={"/about_us"}>
-            <Image
-              src={Te_Esperare}
-              alt='te esperare'
-            />
-          </Link>
-        </div>
-        <div className="sectionBx">
-          <Link href={"/miniserie"}>
-            <section className="miniserie">
-              <div className="imgBx">
-                <Image
-                  src={Miniserie}
-                  alt='Miniserie'
-                />
-              </div>
-              <p>Miniserie</p>
-            </section>
-          </Link>
-          <Link href={"/premier"}>
-            <section className="premier">
-              <div className="imgBx">
-                <Image
-                  src={Premier}
-                  alt='Premier'
-                />
-              </div>
-              <p>Premier</p>
-            </section>
-          </Link>
-          <Link href={"/twitter"}>
+          <Link href={"twitter"}>
             <section className="twitter">
               <div className="imgBx">
                 <Image
@@ -89,6 +57,78 @@ export default function Home() {
               <p>Twitter</p>
             </section>
           </Link>
+        </div>
+        <div className="imgBx aparition">
+          <Link href={"/about_us"}>
+            {/* <Image
+              src={Te_Esperare}
+              alt='te esperare'
+            /> */}
+            <h2 className="title_name">
+              <div>T</div>
+              <div>E</div>
+              <div className="space"></div>
+              <div>E</div>
+              <div>S</div>
+              <div>P</div>
+              <div>E</div>
+              <div>r</div>
+              <div>A</div>
+              <div>r</div>
+              <div>É</div>
+            </h2>
+            <button>NOSOTROS</button>
+          </Link>
+        </div>
+        <div className="sectionBx translateY">
+          <Link href={"miniserie"}>
+            <section className="miniserie">
+              <div className="imgBx">
+                <Image
+                  src={Miniserie}
+                  alt='Miniserie'
+                />
+              </div>
+              <p>Miniserie</p>
+            </section>
+          </Link>
+          <Link href={"premier"}>
+            <section className="premier">
+              <div className="imgBx">
+                <Image
+                  src={Premier}
+                  alt='Premier'
+                />
+              </div>
+              <p>Premier</p>
+            </section>
+          </Link>
+          <Link href={"ustedes"}>
+            <section className="twitter">
+              <div className="imgBx">
+                <Image
+                  src={Twitter}
+                  alt='ustedes'
+                />
+              </div>
+              <p>Ustedes</p>
+            </section>
+          </Link>
+          <Link href={"tienda"}>
+            <section className="twitter">
+              <div className="imgBx">
+                <Image
+                  src={Twitter}
+                  alt='Tienda'
+                />
+              </div>
+              <p>Tienda</p>
+            </section>
+          </Link>
+        </div>
+        <div className="arcoiris">
+          <p>ARCOIRIS</p>
+          <p>production</p>
         </div>
       </div>
     </div>
