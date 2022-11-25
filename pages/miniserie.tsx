@@ -5,7 +5,9 @@ import Casca from '../public/casca.webp';
 import Image from "next/image";
 import Personajes from '../public/personajes_title.png'
 import Beatriz from '../public/beatriz_name.png'
+import BeatrizImg from '../public/beatriz_img.png'
 import Amelia from '../public/amelia_name.png'
+import AmeliaImg from '../public/amelia_img.jpg'
 import Carlos from '../public/carlos_name.png'
 import CarlosImg from '../public/carlos_img.png'
 import Trailer from '../public/trailer_title.png'
@@ -13,8 +15,8 @@ import Trailer from '../public/trailer_title.png'
 const imgsArray = [
   {
     id: 0,
-    url: CarlosImg,
-    description: 'Beatriz',
+    url: BeatrizImg,
+    description: 'Exrtovertida y divertida',
     name: Beatriz,
     color: '#ffa0d4',
     caracteristicas: {
@@ -22,12 +24,18 @@ const imgsArray = [
       musica: 'Su banda favorita es Paramore y muere por Lana del rey',
       pelicula: 'Su serie favorita es Euphoria y le fascina Tim Burton',
       personalidad: 'Entusiasta y alegre. La domina su impulso y emocion'
+    },
+    progres: {
+      dato: '98%',
+      musica: '80%',
+      pelicula: '100%',
+      personalidad: '75%'
     }
   },
   {
     id: 1,
-    url: CarlosImg,
-    description: 'amelia',
+    url: AmeliaImg,
+    description: 'Timida y apasionada',
     name: Amelia,
     color: '#ffa0d4',
     caracteristicas: {
@@ -35,6 +43,12 @@ const imgsArray = [
       musica: 'Su cantante favorita es Taylor Swift y solo esucha Taylor`s Versions',
       pelicula: 'Little Woman, Lady Bird y cualquier otra pelicula que haga Greta Gerwing',
       personalidad: 'Insegura y creativa. Su forma de ser esta basada en personajes de libros'
+    },
+    progres: {
+      dato: '98%',
+      musica: '70%',
+      pelicula: '100%',
+      personalidad: '65%'
     }
   },
   {
@@ -48,6 +62,12 @@ const imgsArray = [
       musica: 'Su cancion favorita es Travesti de Sangre Purpura',
       pelicula: 'Es fan de Tarantino. Cree que cualquiera de sus peliculas son un icono',
       personalidad: 'Serio y frio. No suele expresar sus sentimientos'
+    },
+    progres: {
+      dato: '98%',
+      musica: '70%',
+      pelicula: '100%',
+      personalidad: '65%'
     }
   }
 ]

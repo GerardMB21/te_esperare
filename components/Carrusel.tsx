@@ -20,7 +20,13 @@ interface ObjectImg{
       musica: string,
       pelicula: string,
       personalidad: string
-    }
+    },
+    progres: {
+      dato: string,
+      musica: string,
+      pelicula: string,
+      personalidad: string
+    },
 }
 
 interface Props{
@@ -69,6 +75,9 @@ export default function Carrusel({imgs}: Props) {
                           alt='personalidad'
                         />
                       </div>
+                      <div className="progres">
+                        <span className="yellow" style={{ width: img.progres.personalidad }}></span>
+                      </div>
                       <p>Personalidad</p>
                       <p className="text">{img.caracteristicas.personalidad}</p>
                     </div>
@@ -78,6 +87,9 @@ export default function Carrusel({imgs}: Props) {
                           src={Musica}
                           alt='musica'
                         />
+                      </div>
+                      <div className="progres">
+                        <span className="pink" style={{ width: img.progres.musica }}></span>
                       </div>
                       <p>Musica</p>
                       <p className="text">{img.caracteristicas.musica}</p>
@@ -89,6 +101,9 @@ export default function Carrusel({imgs}: Props) {
                           alt='pelicula'
                         />
                       </div>
+                      <div className="progres">
+                        <span className="purple" style={{ width: img.progres.pelicula }}></span>
+                      </div>
                       <p>Pelicula</p>
                       <p className="text">{img.caracteristicas.pelicula}</p>
                     </div>
@@ -98,6 +113,9 @@ export default function Carrusel({imgs}: Props) {
                           src={Dato}
                           alt='dato'
                         />
+                      </div>
+                      <div className="progres">
+                        <span className="cian" style={{ width: img.progres.dato }}></span>
                       </div>
                       <p>Dato</p>
                       <p className="text">{img.caracteristicas.dato}</p>

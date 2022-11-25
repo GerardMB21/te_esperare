@@ -2,7 +2,8 @@
   font-family: dreaming;
   src: url('../public//hurryupweredreaming.ttf') format('truetype');
 } */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Marker+Hatch&family=Shadows+Into+Light&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Marker+Hatch&family=Shadows+Into+Light&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 html,
 body {
@@ -11,6 +12,7 @@ body {
   /* font-family: dreaming, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background: #e1d7c8; */
+  font-family: 'Indie Flower', cursive;
 }
 
 body::-webkit-scrollbar, main::-webkit-scrollbar {
@@ -41,28 +43,28 @@ main{
 }
 
 h1{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 
 h2{
-  font-family: 'Rubik Marker Hatch', cursive;
+  /* font-family: 'Rubik Marker Hatch', cursive; */
   font-size: 2.5em;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 
 h3{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1em;
-  font-weight: 400;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 1.5em;
+  font-weight: 600;
   margin: 0;
 }
 
 p{
-  font-family: 'Shadows Into Light', cursive;
+  /* font-family: 'Shadows Into Light', cursive; */
   font-size: 1.5em;
   font-weight: 500;
   margin: 0;
@@ -273,10 +275,14 @@ p{
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   z-index: 100;
   cursor: pointer;
+}
+
+.menu.home{
+  left: 1rem;
 }
 
 .menu .toggle{
@@ -284,15 +290,15 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: #b693c5;
   z-index: 100;
 }
 
 .menu .toggle span{
-  width: 40px;
+  width: 35px;
   height: 6px;
   background: #222;
   border-radius: 1rem;
@@ -302,7 +308,7 @@ p{
 .menu .toggle span::after{
   content: '';
   display: flex;
-  width: 40px;
+  width: 35px;
   height: 6px;
   background: #222;
   border-radius: 1rem;
@@ -313,7 +319,7 @@ p{
 .menu .toggle span::before{
   content: '';
   display: flex;
-  width: 40px;
+  width: 35px;
   height: 6px;
   background: #222;
   border-radius: 1rem;
@@ -338,8 +344,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: #b693c5;
   z-index: -1;
@@ -381,6 +387,38 @@ p{
 .menu .links a:hover p{
   display: inherit;
   opacity: 1;
+}
+
+.menu .links.active:nth-child(2){
+  transform: translateY(-60px);
+}
+
+.menu .links.active:nth-child(3){
+  transform: translateY(-120px);
+}
+
+.menu .links.active:nth-child(4){
+  transform: translateY(-180px);
+}
+
+.menu .links.active:nth-child(5){
+  transform: translateY(-240px);
+}
+
+.menu .links.active:nth-child(6){
+  transform: translateY(-300px);
+}
+
+.menu .links.active:nth-child(7){
+  transform: translateY(-360px);
+}
+
+.menu .links.active:nth-child(8){
+  transform: translateY(-420px);
+}
+
+.menu .links.active:nth-child(9){
+  transform: translateY(-480px);
 }
 
 .miniseriePage .personajes{
@@ -507,6 +545,38 @@ p{
   font-size: 1.25em;
 }
 
+.progres{
+  width: 70%;
+  height: 1em;
+  border-radius: 1rem;
+  background: #2d2a29;
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.progres span{
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.progres span.yellow{
+  background: #f9da4a;
+}
+
+.progres span.pink{
+  background: #ffa0d4;
+}
+
+.progres span.purple{
+  background: #cbafe8;
+}
+
+.progres span.cian{
+  background: #95d8d0;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -538,6 +608,65 @@ p{
 
   h2{
     font-size: 5em;
+  }
+
+  .menu{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .menu .toggle{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .menu .toggle span{
+    width: 40px;
+  }
+  
+  .menu .toggle span::after{
+    width: 40px;
+  }
+  
+  .menu .toggle span::before{
+    width: 40px;
+  }
+
+  .menu .links{
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu .links.active:nth-child(2){
+    transform: translateY(-70px);
+  }
+  
+  .menu .links.active:nth-child(3){
+    transform: translateY(-140px);
+  }
+  
+  .menu .links.active:nth-child(4){
+    transform: translateY(-210px);
+  }
+  
+  .menu .links.active:nth-child(5){
+    transform: translateY(-280px);
+  }
+  
+  .menu .links.active:nth-child(6){
+    transform: translateY(-350px);
+  }
+  
+  .menu .links.active:nth-child(7){
+    transform: translateY(-420px);
+  }
+  
+  .menu .links.active:nth-child(8){
+    transform: translateY(-490px);
+  }
+  
+  .menu .links.active:nth-child(9){
+    transform: translateY(-560px);
   }
 
   .title_name{
