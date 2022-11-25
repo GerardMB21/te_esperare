@@ -656,6 +656,34 @@ p{
   left: -3px;
 }
 
+.carruselVideoBx{
+  width: 90vw;
+}
+
+.carruselVideoBx .videoBx{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carruselVideoBx .videoBx .bx{
+  width: 70%;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 5px 15px #222;
+}
+
+.carruselVideoBx .videoBx video{
+  width: 100%;
+}
+.carruselVideoBx .swiper-button-next::after, .carruselVideoBx .swiper-button-prev::after{
+  font-size: 3em;
+  font-weight: 500;
+  color: #b693c5;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -783,6 +811,11 @@ p{
   }
 
   .carruselBx .swiper-button-next::after, .carruselBx .swiper-button-prev::after{
+    font-size: 5em;
+    font-weight: 500;
+    color: #b693c5;
+  }
+  .carruselVideoBx .swiper-button-next::after, .carruselVideoBx .swiper-button-prev::after{
     font-size: 5em;
     font-weight: 500;
     color: #b693c5;
