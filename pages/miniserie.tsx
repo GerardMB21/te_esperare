@@ -2,17 +2,53 @@ import Carrusel from "../components/Carrusel";
 import Title from "../components/Title";
 import Guts from '../public/guts.jpg';
 import Casca from '../public/casca.webp';
+import Image from "next/image";
+import Personajes from '../public/personajes_title.png'
+import Beatriz from '../public/beatriz_name.png'
+import Amelia from '../public/amelia_name.png'
+import Carlos from '../public/carlos_name.png'
+import CarlosImg from '../public/carlos_img.png'
+import Trailer from '../public/trailer_title.png'
 
 const imgsArray = [
   {
     id: 0,
-    url: Guts,
-    description: 'guts'
+    url: CarlosImg,
+    description: 'Beatriz',
+    name: Beatriz,
+    color: '#ffa0d4',
+    caracteristicas: {
+      dato: 'Es activista LGBTIQ+ en redes sociales. Le gusta ser escuchada',
+      musica: 'Su banda favorita es Paramore y muere por Lana del rey',
+      pelicula: 'Su serie favorita es Euphoria y le fascina Tim Burton',
+      personalidad: 'Entusiasta y alegre. La domina su impulso y emocion'
+    }
   },
   {
     id: 1,
-    url: Casca,
-    description: 'casca'
+    url: CarlosImg,
+    description: 'amelia',
+    name: Amelia,
+    color: '#ffa0d4',
+    caracteristicas: {
+      dato: 'Le fascina leer libros romanticos, sobre todo los de tematica queer',
+      musica: 'Su cantante favorita es Taylor Swift y solo esucha Taylor`s Versions',
+      pelicula: 'Little Woman, Lady Bird y cualquier otra pelicula que haga Greta Gerwing',
+      personalidad: 'Insegura y creativa. Su forma de ser esta basada en personajes de libros'
+    }
+  },
+  {
+    id: 2,
+    url: CarlosImg,
+    description: 'chapado al antigua',
+    name: Carlos,
+    color: '#f7dd65',
+    caracteristicas: {
+      dato: 'Utiliza la palabra `maricon` como insulto y le gusta hablando huevadas',
+      musica: 'Su cancion favorita es Travesti de Sangre Purpura',
+      pelicula: 'Es fan de Tarantino. Cree que cualquiera de sus peliculas son un icono',
+      personalidad: 'Serio y frio. No suele expresar sus sentimientos'
+    }
   }
 ]
 
@@ -46,7 +82,13 @@ export default function miniserie() {
           <h1>Premisa</h1>
           <p>Te esperare es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Hanna, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
           <div className="personajes">
-            <h2 className="title_name">
+            <div className="imgBx">
+              <Image
+                src={Personajes}
+                alt='Personajes'
+              />
+            </div>
+            {/* <h2 className="title_name">
               <div>P</div>
               <div>E</div>
               <div>R</div>
@@ -57,11 +99,17 @@ export default function miniserie() {
               <div>J</div>
               <div>E</div>
               <div>S</div>
-            </h2>
+            </h2> */}
           </div>
           <Carrusel imgs={imgsArray}/>
           <div className="personajes">
-            <h2 className="title_name">
+            <div className="imgBx">
+              <Image
+                src={Trailer}
+                alt='Trailer'
+              />
+            </div>
+            {/* <h2 className="title_name">
               <div>T</div>
               <div>R</div>
               <div>A</div>
@@ -69,7 +117,7 @@ export default function miniserie() {
               <div>L</div>
               <div>E</div>
               <div>R</div>
-            </h2>
+            </h2> */}
           </div>
           <div className="principal_video">
             <iframe src="https://www.youtube.com/embed/7aekxC_monc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

@@ -12,6 +12,7 @@ import Premier from "../public/ticket_te_esperare.png"
 import Twitter from "../public/elon_musk_te_esperare.png"
 import Us from '../public/us_te_esperare.png'
 import Store from '../public/tienda_te_esperare.png'
+import Home from '../public/home_te_esperare.png'
 
 interface Props {
   children: JSX.Element
@@ -38,7 +39,7 @@ export default function Layout({children}: Props) {
           <div className='toggle' onClick={()=>setToggle(!toggle)}>
             <span className={ toggle ? 'active' : '' }></span>
           </div>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-90px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-70px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"instagram"}>
               <div className="imgBx">
                 <Image
@@ -49,7 +50,7 @@ export default function Layout({children}: Props) {
               <p>Instagram</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-180px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-140px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"podcast"}>
               <div className="imgBx">
                 <Image
@@ -60,7 +61,7 @@ export default function Layout({children}: Props) {
               <p>Podcast</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-270px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-210px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"making_of"}>
               <div className="imgBx">
                 <Image
@@ -71,7 +72,7 @@ export default function Layout({children}: Props) {
               <p style={{ fontSize: ".8em" }}>Making Of</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-360px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-280px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"twitter"}>
               <div className="imgBx">
                 <Image
@@ -82,7 +83,7 @@ export default function Layout({children}: Props) {
               <p>Twitter</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-450px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-350px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"miniserie"}>
               <div className="imgBx">
                 <Image
@@ -93,7 +94,7 @@ export default function Layout({children}: Props) {
               <p>Miniserie</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-540px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-420px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"premier"}>
               <div className="imgBx">
                 <Image
@@ -104,7 +105,7 @@ export default function Layout({children}: Props) {
               <p>Premier</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-630px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-490px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"ustedes"}>
               <div className="imgBx">
                 <Image
@@ -115,7 +116,7 @@ export default function Layout({children}: Props) {
               <p>Ustedes</p>
             </Link>
           </span>
-          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-720px)" } : {} } >
+          <span className={ toggle ? 'links active' : 'links' } style={ toggle ? { transform: "translateY(-560px)" } : {} } onClick={()=>setToggle(false)}>
             <Link href={"tienda"}>
               <div className="imgBx">
                 <Image

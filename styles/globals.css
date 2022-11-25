@@ -54,6 +54,13 @@ h2{
   margin: 0;
 }
 
+h3{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+
 p{
   font-family: 'Shadows Into Light', cursive;
   font-size: 1.5em;
@@ -266,8 +273,8 @@ p{
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   z-index: 100;
   cursor: pointer;
 }
@@ -277,8 +284,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: #b693c5;
   z-index: 100;
@@ -331,8 +338,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: #b693c5;
   z-index: -1;
@@ -358,8 +365,8 @@ p{
 }
 
 .menu .links .imgBx{
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,8 +374,8 @@ p{
 }
 
 .menu .links a:hover .imgBx{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .menu .links a:hover p{
@@ -386,6 +393,9 @@ p{
 .carruselBx .imgBx{
   width: 40vw;
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carruselBx .personajeBx{
@@ -410,7 +420,6 @@ p{
 .carruselBx .personajeBx .bx p{
   min-width: 100px;
   font-size: 1.25em;
-  background: #ffa0d4;
   border-radius: 1rem;
   padding: .3rem 1rem;
   text-align: center;
@@ -424,6 +433,39 @@ p{
   font-size: 3em;
   font-weight: 500;
   color: #b693c5;
+}
+
+.carruselBx .swiper-button-next, .carruselBx .swiper-button-prev{
+  top: 20%;
+}
+
+.carruselBx .caracteristicas{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.carruselBx .caracteristicas div:not(.imgBx){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carruselBx .caracteristicas .imgBx.icon{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carruselBx .caracteristicas p{
+  text-align: center;
+}
+
+.carruselBx .caracteristicas p.text{
+  font-size: 1em;
 }
 
 .miniseriePage .principal_video{
@@ -526,5 +568,35 @@ p{
 
   .miniseriePage .video_item .image iframe{
     height: 350px;
+  }
+
+  .carruselBx .personajeBx{
+    gap: 2rem;
+  }
+
+  .carruselBx .swiper-button-next::after, .carruselBx .swiper-button-prev::after{
+    font-size: 5em;
+    font-weight: 500;
+    color: #b693c5;
+  }
+  
+  .carruselBx .swiper-button-next, .carruselBx .swiper-button-prev{
+    top: 30%;
+  }
+
+  .carruselBx .caracteristicas .imgBx.icon{
+    width: 120px;
+  }
+  
+  .carruselBx .caracteristicas p{
+    font-size: 2em;
+  }
+  
+  .carruselBx .caracteristicas p.text{
+    font-size: 1.5em;
+  }
+
+  .carruselBx .caracteristicas div:not(.imgBx){
+    gap: 1rem;
   }
 }
