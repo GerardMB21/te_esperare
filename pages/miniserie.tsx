@@ -100,7 +100,7 @@ export default function miniserie() {
       <div className="contain">
         <Title />
         <div className="content">
-          <p>Te esperaré es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Hanna, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
+          <p>Te esperaré es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Beatriz, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
           <div className="personajes">
             <div className="imgBx">
               <Image
@@ -122,11 +122,11 @@ export default function miniserie() {
             <div className="bx">
               <div className="imgBx">
                 <Image
-                    src={BeatrizImg}
-                    alt={"Beatriz"}
+                    src={AmeliaImg}
+                    alt={"Amelia"}
                 />
               </div>
-              <p>Beatriz</p>
+              <p>Amelia</p>
             </div>
             <div className="relations_row">
               <span className="to">Relación prohibida</span>
@@ -135,11 +135,11 @@ export default function miniserie() {
             <div className="bx">
               <div className="imgBx">
                 <Image
-                    src={AmeliaImg}
-                    alt={"Amelia"}
+                    src={BeatrizImg}
+                    alt={"Beatriz"}
                 />
               </div>
-              <p>Amelia</p>
+              <p>Beatriz</p>
             </div>
             <div className="relations_row">
               <span className="to" style={{ transform: "rotate(25deg)" }}>Hija</span>
@@ -156,7 +156,7 @@ export default function miniserie() {
             </div>
             <div className="relations_row">
               <span className="to" style={{ transform: "rotate(-25deg)" }}>Odia a la chica</span>
-              <span className="me" style={{ transform: "rotate(-25deg)" }}>Padre de su interes amoroso</span>
+              <span className="me" style={{ transform: "rotate(-25deg)" }}>Posible suegro</span>
             </div>
           </div>
           <div className="personajes" style={{ marginTop: "5rem" }}>

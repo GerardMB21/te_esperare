@@ -656,10 +656,6 @@ p{
   left: -3px;
 }
 
-.carruselVideoBx{
-  width: 90vw;
-}
-
 .carruselVideoBx .videoBx{
   width: 100%;
   height: auto;
@@ -678,6 +674,7 @@ p{
 .carruselVideoBx .videoBx video{
   width: 100%;
 }
+
 .carruselVideoBx .swiper-button-next::after, .carruselVideoBx .swiper-button-prev::after{
   font-size: 3em;
   font-weight: 500;
@@ -691,6 +688,10 @@ p{
 
   .carruselBx .imgBx{
     width: 200px;
+  }
+
+  .carruselVideoBx{
+    width: 90vw;
   }
 }
 
@@ -819,6 +820,10 @@ p{
     font-size: 5em;
     font-weight: 500;
     color: #b693c5;
+  }
+
+  .carruselVideoBx .videoBx .bx{
+    width: 40%;
   }
   
   .carruselBx .swiper-button-next, .carruselBx .swiper-button-prev{
