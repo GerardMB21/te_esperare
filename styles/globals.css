@@ -681,6 +681,28 @@ p{
   color: #b693c5;
 }
 
+.podcastBx{
+  position: relative;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.podcastBx .imgBx{
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.podcastBx a.listen{
+  position: absolute;
+  padding: .5rem 1rem;
+  background: #fff;
+  border-radius: 1rem;
+  bottom: 2rem;
+  cursor: pointer;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -856,5 +878,9 @@ p{
 
   .relations .relations_row{
     font-size: 1.5em;
+  }
+
+  .podcastBx .imgBx{
+    width: 30vw;
   }
 }
