@@ -11,6 +11,7 @@ import AmeliaImg from '../public/amelia_img.jpg'
 import Carlos from '../public/carlos_name.png'
 import CarlosImg from '../public/carlos_img.png'
 import Trailer from '../public/trailer_title.png'
+import Relations from '../public/relaciones.png'
 
 const imgsArray = [
   {
@@ -99,7 +100,6 @@ export default function miniserie() {
       <div className="contain">
         <Title />
         <div className="content">
-          <h1>Premisa</h1>
           <p>Te esperaré es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Hanna, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
           <div className="personajes">
             <div className="imgBx">
@@ -108,36 +108,64 @@ export default function miniserie() {
                 alt='Personajes'
               />
             </div>
-            {/* <h2 className="title_name">
-              <div>P</div>
-              <div>E</div>
-              <div>R</div>
-              <div>S</div>
-              <div>O</div>
-              <div>N</div>
-              <div>A</div>
-              <div>J</div>
-              <div>E</div>
-              <div>S</div>
-            </h2> */}
           </div>
           <Carrusel imgs={imgsArray}/>
           <div className="personajes">
+            <div className="imgBx">
+              <Image
+                src={Relations}
+                alt='Relaciones'
+              />
+            </div>
+          </div>
+          <div className="relations">
+            <div className="bx">
+              <div className="imgBx">
+                <Image
+                    src={BeatrizImg}
+                    alt={"Beatriz"}
+                />
+              </div>
+              <p>Beatriz</p>
+            </div>
+            <div className="relations_row">
+              <span className="to">Relación prohibida</span>
+              <span className="me">Interes amoroso</span>
+            </div>
+            <div className="bx">
+              <div className="imgBx">
+                <Image
+                    src={AmeliaImg}
+                    alt={"Amelia"}
+                />
+              </div>
+              <p>Amelia</p>
+            </div>
+            <div className="relations_row">
+              <span className="to" style={{ transform: "rotate(25deg)" }}>Hija</span>
+              <span className="me" style={{ transform: "rotate(25deg)" }}>Padre</span>
+            </div>
+            <div className="bx" style={{ transform: "translateY(50px)" }}>
+              <div className="imgBx">
+                <Image
+                    src={CarlosImg}
+                    alt={"Carlos"}
+                />
+              </div>
+              <p>Carlos</p>
+            </div>
+            <div className="relations_row">
+              <span className="to" style={{ transform: "rotate(-25deg)" }}>Odia a la chica</span>
+              <span className="me" style={{ transform: "rotate(-25deg)" }}>Padre de su interes amoroso</span>
+            </div>
+          </div>
+          <div className="personajes" style={{ marginTop: "5rem" }}>
             <div className="imgBx">
               <Image
                 src={Trailer}
                 alt='Trailer'
               />
             </div>
-            {/* <h2 className="title_name">
-              <div>T</div>
-              <div>R</div>
-              <div>A</div>
-              <div>I</div>
-              <div>L</div>
-              <div>E</div>
-              <div>R</div>
-            </h2> */}
           </div>
           <div className="principal_video">
             <iframe src="https://www.youtube.com/embed/7aekxC_monc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

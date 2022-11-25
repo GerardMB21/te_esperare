@@ -583,6 +583,79 @@ p{
   margin-top: 2rem;
 }
 
+.relations{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.relations .bx{
+  padding: .5rem;
+  background: #fff;
+  box-shadow: 5px 5px #222;
+}
+
+.relations .bx p{
+  text-align: center;
+  font-size: 1em;
+}
+
+.relations .relations_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: .8em;
+}
+
+.relations .relations_row span{
+  position: relative;
+  min-width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #222;
+}
+
+.relations .relations_row span::after{
+  position: absolute;
+  content: '';
+  display: flex;
+  height: 2px;
+  width: 20px;
+  background: #222;
+  bottom: -8px;
+}
+
+.relations .relations_row span::before{
+  position: absolute;
+  content: '';
+  display: flex;
+  height: 2px;
+  width: 20px;
+  background: #222;
+  bottom: 5px;
+}
+
+.relations .relations_row span.to::after{
+  transform: rotate(145deg);
+  right: -3px;
+}
+
+.relations .relations_row span.to::before{
+  transform: rotate(-145deg);
+  right: -3px;
+}
+
+.relations .relations_row span.me::after{
+  transform: rotate(45deg);
+  left: -3px;
+}
+
+.relations .relations_row span.me::before{
+  transform: rotate(-45deg);
+  left: -3px;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -737,5 +810,13 @@ p{
 
   .imgBx.up .imgBx.rainbow{
     width: 200px;
+  }
+
+  .relations .bx p{
+    font-size: 2em;
+  }
+
+  .relations .relations_row{
+    font-size: 1.5em;
   }
 }
