@@ -239,14 +239,53 @@ p{
   justify-content: flex-start;
 }
 
+.premierPage .ubicanos{
+  background: #f85bae;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.premierPage .plan_de_difusion{
+  text-align: center;
+  background: #f85bae;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.premierPage .fechas{
+  text-align: center;
+  background: #f9e23d;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.premierPage .como_nos_fue{
+  text-align: center;
+  background: #9b6ba9;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.premierPage .gallery{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 2rem;
+}
+
 .premierPage .map{
   margin: 2rem 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.premierPage .map div{
+.premierPage .map div:not(.ubicanos){
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -703,6 +742,25 @@ p{
   cursor: pointer;
 }
 
+.ustedesPage {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+
+.ustedesPage .contain {
+  max-width: 90vw;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -803,7 +861,7 @@ p{
     gap: 15px;
   }
 
-  .premierPage .map div{
+  .premierPage .map div:not(.ubicanos){
     width: 400px;
     height: 400px;
   }
@@ -881,6 +939,10 @@ p{
   }
 
   .podcastBx .imgBx{
+    width: 30vw;
+  }
+
+  .account .imgBx{
     width: 30vw;
   }
 }

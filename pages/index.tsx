@@ -66,19 +66,6 @@ export default function Home() {
               src={Te_Esperare}
               alt='te esperare'
             />
-            {/* <h2 className="title_name">
-              <div>T</div>
-              <div>E</div>
-              <div className="space"></div>
-              <div>E</div>
-              <div>S</div>
-              <div>P</div>
-              <div>E</div>
-              <div>r</div>
-              <div>A</div>
-              <div>r</div>
-              <div>É</div>
-            </h2> */}
             <Link href={"/about_us"}>
               <button>NOSOTROS</button>
           </Link>

@@ -7,6 +7,8 @@ import 'swiper/css/effect-fade';
 import Separator from "../components/Separator";
 import Image from "next/image";
 import InstagramTitle from '../public/instagram_title.png'
+import QrInstagram from '../public/qr_instagram.png'
+
 const videos = [
   {
     id: 1,
@@ -39,6 +41,15 @@ export default function instagram() {
             />
           </div>
           <p>¿Ya conocieron a Amelia? Amelia es una chica tímida y apasionada por los libros. Ella vuela y salta entre cada uno que comienza y termina.<br/>Amelia tiene una cuenta de Instagram secreta en la que comparte sus opiniones sobre todos los libros que lee. Es un espacio seguro entre ella y los espectadores que desean saber su veredicto.</p>
+          <Separator/>
+            <div className="account" style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "3rem" }}>
+              <div className="imgBx">
+                <Image
+                  src={QrInstagram}
+                  alt='Instagram'
+                />
+              </div>
+            </div>
           <Separator/>
           <div className="carruselVideoBx">
             <Swiper
