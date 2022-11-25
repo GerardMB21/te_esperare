@@ -577,6 +577,12 @@ p{
   background: #95d8d0;
 }
 
+.imgBx.up .imgBx.rainbow{
+  width: 100px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width:850px) {
   .carruselBx{
     width: 90vw;
@@ -727,5 +733,9 @@ p{
 
   .carruselBx .caracteristicas div:not(.imgBx){
     gap: 1rem;
+  }
+
+  .imgBx.up .imgBx.rainbow{
+    width: 200px;
   }
 }

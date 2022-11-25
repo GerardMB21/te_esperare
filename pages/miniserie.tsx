@@ -100,7 +100,7 @@ export default function miniserie() {
         <Title />
         <div className="content">
           <h1>Premisa</h1>
-          <p>Te esperare es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Hanna, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
+          <p>Te esperaré es una miniserie protagonizada por Amelia, una chica introvertida que le apasiona la lectura. Ella se topara con Hanna, una personalidad dispar a la suya; sin embargo, esta comenzara a ser complementaria mientras se van conociendo cada vez mas.<br/>¿Sera su amor compatible?</p>
           <div className="personajes">
             <div className="imgBx">
               <Image
