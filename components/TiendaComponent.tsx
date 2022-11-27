@@ -132,11 +132,11 @@ export default function TiendaComponent() {
 
   const changeCardCvv = (value: any) => {
     value = value.replace(/[^0-9]/g,'')
-    if (value.length >= 4) {
-      const number = value.slice(0,4)
+    if (value.length >= 3) {
+      const number = value.slice(0,3)
       return setCardCvv(number)
     }
-    const number = value.slice(0,4)
+    const number = value.slice(0,3)
     return setCardCvv(number)
   }
 
@@ -289,13 +289,13 @@ export default function TiendaComponent() {
                   <div className='bx'>
                     <div className='cvv'>
                       <label htmlFor='cvv'>CVV</label>
-                      <input type={'number'} id={'cvv'} value={cardCvv} placeholder={'1234'} onChange={(e)=>changeCardCvv(e.target.value)}/>
+                      <input type={'number'} id={'cvv'} value={cardCvv} placeholder={'123'} onChange={(e)=>changeCardCvv(e.target.value)}/>
                     </div>
                   </div>
                 </div>
               </form>
               <div className='buttonPayment'>
-                <button className={ cardNumber.length === 19 && !isNaN(parseInt(month)) && !isNaN(parseInt(year)) && cardCvv.length === 4 ? 'active' : '' }>COMPRAR</button>
+                <button className={ cardNumber.length === 19 && !isNaN(parseInt(month)) && !isNaN(parseInt(year)) && cardCvv.length === 3 ? 'active' : '' }>COMPRAR</button>
               </div>
             </>
           }
