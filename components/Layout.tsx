@@ -47,7 +47,7 @@ export default function Layout({children}: Props) {
             setToggle(false)
             setSocial(false)
           }}>
-            <Link href={'https://www.youtube.com/'} target={'_blank'}>
+            <Link href={'https://youtube.com/channel/UCsVP_miuSZ3FUpoxoCtkuTA'} target={'_blank'}>
               <Youtube size="32" color="#fff"/>
             </Link>
           </span>
