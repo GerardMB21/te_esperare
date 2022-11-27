@@ -9,6 +9,7 @@ import Twitter from "../public/elon_musk_te_esperare.png"
 import Us from '../public/us_te_esperare.png'
 import Store from '../public/tienda_te_esperare.png'
 import Rainbow from '../public/rainbow_te_esperare.png'
+import Arrow from '../public/arrow.png'
 import Link from "next/link"
 
 export default function Home() {
@@ -25,10 +26,22 @@ export default function Home() {
                 />
               </div>
               <p>Instagram</p>
+              <div className="imgBx" style={{ transform: 'rotate(245deg) rotateY(180deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
             </section>
           </Link>
           <Link href={"podcast"}>
             <section className="podcast">
+              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
               <div className="imgBx">
                 <Image
                   src={Podcast}
@@ -47,10 +60,22 @@ export default function Home() {
                 />
               </div>
               <p>Making of</p>
+              <div className="imgBx" style={{ transform: 'rotate(150deg)' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
             </section>
           </Link>
           <Link href={"twitter"}>
             <section className="twitter">
+              <div className="imgBx" style={{ transform: 'rotate(315deg)' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
               <div className="imgBx">
                 <Image
                   src={Twitter}
@@ -62,12 +87,13 @@ export default function Home() {
           </Link>
         </div>
         <div className="imgBx aparition">
-            <Image
-              src={Te_Esperare}
-              alt='te esperare'
-            />
-            <Link href={"/about_us"}>
-              <button>NOSOTROS</button>
+          <Image
+            src={Te_Esperare}
+            alt='te esperare'
+          />
+          <Link href={"/about_us"}>
+            <button>NOSOTROS</button>
+            <p style={{ textAlign: 'center' }}>click aqui</p>
           </Link>
         </div>
         <div className="sectionBx translateY">
@@ -80,10 +106,22 @@ export default function Home() {
                 />
               </div>
               <p>Miniserie</p>
+              <div className="imgBx" style={{ transform: 'rotate(225deg) rotateY(180deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
             </section>
           </Link>
           <Link href={"premier"}>
             <section className="premier">
+              <div className="imgBx" style={{ transform: 'rotate(315deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
               <div className="imgBx">
                 <Image
                   src={Premier}
@@ -95,6 +133,12 @@ export default function Home() {
           </Link>
           <Link href={"ustedes"}>
             <section className="twitter">
+              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
               <div className="imgBx">
                 <Image
                   src={Us}
@@ -113,10 +157,16 @@ export default function Home() {
                 />
               </div>
               <p>Tienda</p>
+              <div className="imgBx" style={{ transform: 'rotate(135deg)', margin: '0' }}>
+                <Image
+                  src={Arrow}
+                  alt={'arrow'}
+                />
+              </div>
             </section>
           </Link>
         </div>
-        <div className="arcoiris">
+        <div className="arcoiris" style={{ marginTop: '10rem' }}>
           <div className="imgBx rainbow">
             <Image
               src={Rainbow}
