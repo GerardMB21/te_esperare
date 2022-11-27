@@ -79,7 +79,7 @@ export default function Layout({children}: Props) {
             setToggle(false)
             setSocial(false)
           }}>
-            <Link href={''} target={'_blank'}>
+            <Link href={'tiktok.com/@makingof_tesperare'} target={'_blank'}>
               <IoLogoTiktok size={"32"} color='#fff'></IoLogoTiktok>
             </Link>
           </span>
