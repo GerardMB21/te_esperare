@@ -168,7 +168,7 @@ export default function miniserie() {
             </div>
           </div>
           <div className="principal_video">
-            <iframe src="https://www.youtube.com/embed/7aekxC_monc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe src="https://www.youtube.com/embed/83HZ4UGQdzk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <div className="list_videos">
             {
