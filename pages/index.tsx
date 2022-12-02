@@ -26,7 +26,7 @@ export default function Home() {
                 />
               </div>
               <p>Instagram</p>
-              <div className="imgBx" style={{ transform: 'rotate(245deg) rotateY(180deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(245deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
           <Link href={"podcast"}>
             <section className="podcast">
-              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -59,8 +59,8 @@ export default function Home() {
                   alt='Microphone'
                 />
               </div>
-              <p>Making of</p>
-              <div className="imgBx" style={{ transform: 'rotate(150deg)', maxWidth:'130px' }}>
+              <p>Tik Tok</p>
+              <div className="imgBx" style={{ transform: 'rotate(150deg)', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -70,7 +70,7 @@ export default function Home() {
           </Link>
           <Link href={"twitter"}>
             <section className="twitter">
-              <div className="imgBx" style={{ transform: 'rotate(315deg)',  maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(315deg)',  maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -93,7 +93,7 @@ export default function Home() {
           />
           <Link href={"/about_us"}>
             <button>NOSOTROS</button>
-            <p style={{ textAlign: 'center' }}>click aqui</p>
+            <p style={{ textAlign: 'center' }}>click aquí</p>
           </Link>
         </div>
         <div className="sectionBx translateY">
@@ -106,7 +106,7 @@ export default function Home() {
                 />
               </div>
               <p>Miniserie</p>
-              <div className="imgBx" style={{ transform: 'rotate(225deg) rotateY(180deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(225deg) rotateY(180deg)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -116,7 +116,7 @@ export default function Home() {
           </Link>
           <Link href={"premier"}>
             <section className="premier">
-              <div className="imgBx" style={{ transform: 'rotate(315deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(315deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -133,7 +133,7 @@ export default function Home() {
           </Link>
           <Link href={"ustedes"}>
             <section className="twitter">
-              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -157,7 +157,7 @@ export default function Home() {
                 />
               </div>
               <p>Tienda</p>
-              <div className="imgBx" style={{ transform: 'rotate(135deg)', margin: '0', maxWidth:'130px' }}>
+              <div className="imgBx" style={{ transform: 'rotate(135deg)', margin: '0', maxWidth:'100px' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}

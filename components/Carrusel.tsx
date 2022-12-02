@@ -52,20 +52,22 @@ export default function Carrusel({imgs}: Props) {
             <>
               <SwiperSlide key={img.id}>
                 <div className="personajeBx">
-                  <div className="bx">
-                    <div className="imgBx">
+                  <div style={{ display: "flex", flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: "8px" }}>
+                    <div className="bx">
+                      <div className="imgBx">
+                        <Image
+                            src={img.url}
+                            alt={img.description}
+                        />
+                      </div>
+                      <p style={{ background: img.color }}>{img.description}</p>
+                    </div>
+                    <div className="name imgBx">
                       <Image
-                          src={img.url}
-                          alt={img.description}
+                        src={img.name}
+                        alt='name'
                       />
                     </div>
-                    <p style={{ background: img.color }}>{img.description}</p>
-                  </div>
-                  <div className="name imgBx">
-                    <Image
-                      src={img.name}
-                      alt='name'
-                    />
                   </div>
                   <div className="caracteristicas">
                     <div>
@@ -91,7 +93,7 @@ export default function Carrusel({imgs}: Props) {
                       <div className="progres">
                         <span className="pink" style={{ width: img.progres.musica }}></span>
                       </div>
-                      <p>Musica</p>
+                      <p>Música</p>
                       <p className="text">{img.caracteristicas.musica}</p>
                     </div>
                     <div>
@@ -104,7 +106,7 @@ export default function Carrusel({imgs}: Props) {
                       <div className="progres">
                         <span className="purple" style={{ width: img.progres.pelicula }}></span>
                       </div>
-                      <p>Pelicula</p>
+                      <p>Película</p>
                       <p className="text">{img.caracteristicas.pelicula}</p>
                     </div>
                     <div>

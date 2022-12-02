@@ -40,7 +40,7 @@ export default function Layout({children}: Props) {
             setSocial(!social)
           }}>
             <span>
-              SIGUENOS
+              SÍGUENOS
             </span>
           </span>
           <span className={ social ? 'links active' : 'links' } onClick={()=>{

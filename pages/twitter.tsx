@@ -26,8 +26,8 @@ export default function twitter() {
           <h1 style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#cbafe8" }}>¿Ya conocieron a Beatriz?</h1>
           <p>Beatriz es una chica extrovertida y divertida. Nunca se queda callada. Ella se sintió identificada con la homosexualidad desde su adolescencia, y a partir de ese día decidió que haría todo lo posible para que todas las personas que fueran iguales a ella, no se sintieran solas ni avergonzadas por ser lo que son.<br/>Beatriz tiene una cuenta de Twitter en la que se dedica a hacer activismo queer, responde y comenta sobre problemáticas de la comunidad y, claro, pasa uno que otro rato riéndose.</p>
           <Separator/>
-          <h1>Perfil</h1>
-          <div className="imgBx" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <h1 style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#cbafe8" }}>Perfil</h1>
+          <div className="imgBx" style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: '16px' }}>
             <Link href={"https://twitter.com/GaynewsTE"} target={"_blank"}>
               <Image
                 src={Tweet1}
@@ -35,7 +35,10 @@ export default function twitter() {
               />
             </Link>
           </div>
-          <h1>Tweets</h1>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Link href={"https://twitter.com/GaynewsTE"} style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#00acee", fontSize: "2em" }} target={"_blank"}>Síguenos en Twitter</Link>
+          </div>
+          <h1 style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#cbafe8", marginTop: '16px' }}>Tweets</h1>
           <div className="gallery">
             <div className="imgBx">
               <Link href={"https://twitter.com/GaynewsTE/status/1596135479292080128?cxt=HHwWgMDRieCwzqYsAAAA"} target={"_blank"}>
@@ -86,7 +89,6 @@ export default function twitter() {
               </Link>
             </div>
           </div>
-          <Link href={"https://twitter.com/GaynewsTE"} style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#00acee", fontSize: "2em" }} target={"_blank"}>Siguenos en Twitter</Link>
         </div>
       </div>
     </div>

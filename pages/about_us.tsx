@@ -1,9 +1,10 @@
 import Image from "next/image"
 import Separator from "../components/Separator"
 import Title from "../components/Title"
-import QuienesSomos from "../public/quienes_somos.png"
+import QuienesSomos from "../public/about_us_img.png"
 import Mision from '../public/mision.png'
 import Vision from '../public/vision.png'
+import imgPremier from '../public/Grupo-Premier.png'
 
 export default function about_us() {
   return (
@@ -11,15 +12,21 @@ export default function about_us() {
       <div className="contain">
         <Title />
         <div className="content">
-          <div className="imgBx">
+          <div className="imgBx" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Image
               src={QuienesSomos}
               alt="Quienes somos"
             />
           </div>
+          <div className="imgBx">
+            <Image
+              src={imgPremier}
+              alt="Nosotros"
+            />
+          </div>
           <p>Bienvenidos al website de la Miniserie: Te esperaré.<br/>Somos la productora x, un grupo de estudiantes universitarios del curso de Realizacion Transmedia que desean compartir un mensaje mediante el lenguaje audio y/o visual.</p>
           <Separator/>
-          <div className="imgBx" style={{ width: "30%" }}>
+          <div className="imgBx" style={{ width: "30%", margin: 'auto' }}>
             <Image
               src={Mision}
               alt="Mision"
@@ -27,7 +34,7 @@ export default function about_us() {
           </div>
           <p>Nuestro objetivo es promover la inclusion de distintas orientaciones e identidades sexuales mediante nuestras producciones.<br/>La comunidad LGBTIQ+ ha sido vulnerada en magnitudes historicas y, consecuentemente, los derechos humanos de sus conformantes han sido violados de múltiples formas. El fin de contar diversas historias que se entrelazan por la heterogeneidad de sus personajes, es transmitir distintas perspectivas bajo el principio de la subjetividad en nuestro universo transmedia.</p>
           <Separator/>
-          <div className="imgBx" style={{ width: "30%" }}>
+          <div className="imgBx" style={{ width: "30%", margin: 'auto' }}>
             <Image
               src={Vision}
               alt="Vision"

@@ -163,7 +163,7 @@ export default function TiendaComponent() {
               />
             </div>
             <Separator/>
-            <h1>Compra productos exclucivos</h1>
+            <h1>Compra productos exclusivos</h1>
             <div className='gallery'>
               {
                 products.map((product)=>(

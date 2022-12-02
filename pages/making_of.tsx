@@ -31,14 +31,6 @@ export default function making_of() {
               </div>
             </Link>
           </div>
-          <div className="account" style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "3rem" }}>
-            <div className="imgBx">
-              <Image
-                src={QrTiktok}
-                alt='Tik Tok'
-              />
-            </div>
-          </div>
         </div>
       </div>
     </div>
