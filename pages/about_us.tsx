@@ -24,7 +24,7 @@ export default function about_us() {
               alt="Nosotros"
             />
           </div>
-          <p>Bienvenidos al website de la Miniserie: Te esperaré.<br/>Somos ARCOIRIS Production, un grupo de estudiantes universitarios del curso de Realización Transmedia que desean compartir un mensaje mediante el lenguaje audio y/o visual.</p>
+          <p>Bienvenidos al website de la Miniserie: Te esperaré.<br/>Somos ARCOÍRIS Production, un grupo de estudiantes universitarios del curso de Realización Transmedia que desean compartir un mensaje mediante el lenguaje audio y/o visual.</p>
           <Separator/>
           <div className="imgBx" style={{ width: "30%", margin: 'auto' }}>
             <Image
