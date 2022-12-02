@@ -5,6 +5,8 @@ import Ustedes from '../public/ustedes_title.png'
 import PhonesInsta from '../public/phones_instagram.png'
 import PhonesTikTok from '../public/phones_tiktok.png'
 import Tweet from '../public/tweet.png'
+import BProfile from '../public/b_profile.jpeg'
+import AProfile from '../public/a_profile.jpeg'
 import { useState } from 'react'
 
 export default function UstedesComponent() {
@@ -23,9 +25,15 @@ export default function UstedesComponent() {
               alt='Making Of'
             />
           </div>
-          <p style={{ textAlign: "center", fontSize: "2em", marginBottom: "2rem" }}>Aquí encontrarás todas las interacciones que que hemos tenido con todos nuestro seguidores</p>
+          <p style={{ textAlign: "center", fontSize: "2em", marginBottom: "2rem" }}>Gracias por acompañarnos y seguirnos. Si te quedaste con ganas de más:</p>
           <div className="sms" style={{ background: '#cdaee5' }}>
-            <h1 style={{ textAlign: 'center' }}>Escrible a Amelia</h1>
+            <h1 style={{ textAlign: 'center' }}>Habla con Amelia, cuentale de tu amor imposible.</h1>
+            <div className="imgBx" style={{ borderRadius: '50%', overflow: 'hidden', width: '100px', height: '100px' }}>
+                <Image
+                    src={AProfile}
+                    alt='img'
+                />
+            </div>
             <form onSubmit={(e) => {
                 e.preventDefault()
                 setTextAmelia('')
@@ -35,7 +43,13 @@ export default function UstedesComponent() {
             </form>
           </div>
           <div className="sms" style={{ background: '#f9da4a', marginTop: '32px' }}>
-            <h1 style={{ textAlign: 'center' }}>Escrible a Beatriz</h1>
+            <h1 style={{ textAlign: 'center' }}>Habla con Beatriz preguntale todas tus dudas 🏳️‍🌈</h1>
+            <div className="imgBx" style={{ borderRadius: '50%', overflow: 'hidden', width: '100px', height: '100px' }}>
+                <Image
+                    src={BProfile}
+                    alt='img'
+                />
+            </div>
             <form onSubmit={(e) => {
                 e.preventDefault()
                 setTextBeatriz('')
