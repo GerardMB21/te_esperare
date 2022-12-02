@@ -29,7 +29,7 @@ const imgsArray = [
       dato: 'Es activista LGBTIQ+ en redes sociales. Le gusta ser escuchada.',
       musica: 'Su banda favorita es Paramore y muere por Lana del rey.',
       pelicula: 'Su serie favorita es Euphoria y le fascina Tim Burton.',
-      personalidad: 'Entusiasta y alegre. La domina su impulso y emocion.'
+      personalidad: 'Entusiasta y alegre. La domina su impulso y emoción.'
     },
     progres: {
       dato: '98%',
@@ -45,7 +45,7 @@ const imgsArray = [
     name: Amelia,
     color: '#ffa0d4',
     caracteristicas: {
-      dato: 'Le fascina leer libros romanticos, sobre todo los de tematica queer.',
+      dato: 'Le fascina leer libros romanticos, sobre todo los de temática queer.',
       musica: 'Su cantante favorita es Taylor Swift y solo esucha Taylor`s Versions.',
       pelicula: 'Little Woman, Lady Bird y cualquier otra película que haga Greta Gerwing.',
       personalidad: 'Insegura y creativa. Su forma de ser está basada en personajes de libros.'

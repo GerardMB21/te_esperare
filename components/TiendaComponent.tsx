@@ -25,73 +25,73 @@ const products = [
     id: 0,
     link: "/",
     url: product1,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 1,
     link: "/",
     url: product2,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 2,
     link: "/",
     url: product3,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 3,
     link: "/",
     url: product4,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 4,
     link: "/",
     url: product5,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 5,
     link: "/",
     url: product6,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 6,
     link: "/",
     url: product7,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 7,
     link: "/",
     url: product8,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 8,
     link: "/",
     url: product9,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 9,
     link: "/",
     url: product10,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 10,
     link: "/",
     url: product11,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
   {
     id: 11,
     link: "/",
     url: product12,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est ducimus vero eaque delectus reiciendis, quasi enim dolorum provident, laudantium corrupti eveniet tempore mollitia ex deleniti? Quia rerum consequatur eveniet."
+    description: ""
   },
 ]
 

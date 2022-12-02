@@ -10,15 +10,14 @@ import image4 from '../public/image4.jpeg'
 import image5 from '../public/img_premier_1.png'
 import image6 from '../public/img_premier_2.png'
 import image7 from '../public/img_premier_3.png'
-// import image8 from '../public/imgpremier4.jpg'
-// import image9 from '../public/imgpremier5.jpg'
-// import image10 from '../public/imgpremier6.jpg'
-// import image11 from '../public/imgpremier7.jpg'
-// import image12 from '../public/imgpremier8.jpg'
-// import image13 from '../public/imgpremier9.jpg'
-// import image14 from '../public/imgpremier10.jpg'
-// import image15 from '../public/imgpremier11.jpg'
-// import Cinta from '../public/min_premier.png'
+import image8 from '../public/imgpremier4.jpg'
+import image9 from '../public/imgpremier5.jpg'
+import image10 from '../public/imgpremier6.jpg'
+import image11 from '../public/imgpremier7.jpg'
+import image12 from '../public/imgpremier8.jpg'
+import image13 from '../public/imgpremier9.jpg'
+import image14 from '../public/imgpremier10.jpg'
+import image15 from '../public/imgpremier11.jpg'
 import Cinta from '../public/min_premier.png'
 import Link from "next/link";
 
@@ -59,41 +58,41 @@ const images3 = [
   },
   {
     id: 1,
-    url: image7
+    url: image8
   },
   {
     id: 2,
-    url: image7
+    url: image9
   },
 ]
 
 const images4 = [
   {
     id: 0,
-    url: image7
+    url: image10
   },
   {
     id: 1,
-    url: image7
+    url: image11
   },
   {
     id: 2,
-    url: image7
+    url: image12
   },
 ]
 
 const images5 = [
   {
     id: 0,
-    url: image7
+    url: image13
   },
   {
     id: 1,
-    url: image7
+    url: image14
   },
   {
     id: 2,
-    url: image7
+    url: image15
   },
 ]
 

@@ -18,7 +18,7 @@ export default function ustedes() {
               alt='Making Of'
             />
           </div>
-          <p style={{ textAlign: "center", fontSize: "2em", marginBottom: "2rem" }}>Aqui encontraras todas las interacciones que que hemos tenido con todos nuestro seguidores</p>
+          <p style={{ textAlign: "center", fontSize: "2em", marginBottom: "2rem" }}>Aquí encontrarás todas las interacciones que que hemos tenido con todos nuestro seguidores</p>
           <Separator/>
           <h3 style={{ textAlign: "center", padding: ".5rem 1 rem", borderRadius: "1rem", background: "#ffa0d4", marginBottom: "2rem" }}>INSTAGRAM</h3>
           <div className="imgBx" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
