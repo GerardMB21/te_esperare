@@ -72,6 +72,9 @@ export default function podcast() {
           <h1 style={{ padding: '8px 16px', margin: '12px 0', borderRadius: '16px', background: '#222', color: '#fff' }}>Conoce a Carlos</h1>
           <p>El Podcast Encerrados en CREHO nos cuenta la historia de Carlos, un joven gay que es encerrado en CREHO, una centro de torturas que es presentado como una organización de terapias de conversión en Perú. Acompaña a Carlos a este centro de torturas, un espacio en el que sufrirá de traumáticos e inhumanos acontecimientos.</p>
           <Separator/>
+          <div className="principal_video">
+            <iframe src="https://www.youtube.com/embed/YtRYM9_7Z4A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
           <h3 style={{ margin: "1rem 0", padding: ".5rem 1rem", borderRadius: "1rem", background: "#222", color: "#fff" }}>Escucha nuestro Podcast en Spotify</h3>
           <div className="podcastBx">
             <div className="imgBx">

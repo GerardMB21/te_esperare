@@ -23,6 +23,7 @@ export default function Home() {
                 <Image
                   src={Instagram}
                   alt='Instagram'
+                  priority
                 />
               </div>
               <p>Instagram</p>
@@ -30,6 +31,7 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
             </section>
@@ -40,12 +42,14 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
               <div className="imgBx">
                 <Image
                   src={Podcast}
                   alt='Podcast'
+                  priority
                 />
               </div>
               <p>Podcast</p>
@@ -57,6 +61,7 @@ export default function Home() {
                 <Image
                   src={Microphone}
                   alt='Microphone'
+                  priority
                 />
               </div>
               <p>Tik Tok</p>
@@ -64,6 +69,7 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
             </section>
@@ -74,12 +80,14 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
               <div className="imgBx">
                 <Image
                   src={Twitter}
                   alt='Twitter'
+                  priority
                 />
               </div>
               <p>Twitter</p>
@@ -90,6 +98,7 @@ export default function Home() {
           <Image
             src={Te_Esperare}
             alt='te esperare'
+            priority
           />
           <Link href={"/about_us"}>
             <button>NOSOTROS</button>
@@ -103,6 +112,7 @@ export default function Home() {
                 <Image
                   src={Miniserie}
                   alt='Miniserie'
+                  priority
                 />
               </div>
               <p>Miniserie</p>
@@ -120,12 +130,14 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
               <div className="imgBx">
                 <Image
                   src={Premier}
                   alt='Premier'
+                  priority
                 />
               </div>
               <p>Premier</p>
@@ -137,12 +149,14 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
               <div className="imgBx">
                 <Image
                   src={Us}
                   alt='ustedes'
+                  priority
                 />
               </div>
               <p>Ustedes</p>
@@ -154,6 +168,7 @@ export default function Home() {
                 <Image
                   src={Store}
                   alt='Tienda'
+                  priority
                 />
               </div>
               <p>Tienda</p>
@@ -161,6 +176,7 @@ export default function Home() {
                 <Image
                   src={Arrow}
                   alt={'arrow'}
+                  priority
                 />
               </div>
             </section>
@@ -171,6 +187,7 @@ export default function Home() {
             <Image
               src={Rainbow}
               alt='arcoiris producciones'
+              priority
             />
           </div>
           {/* <p>ARCOIRIS</p>
