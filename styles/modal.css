@@ -50,7 +50,7 @@
 }
 
 .modal .details .imgBx{
-    width: 50%;
+    width: 100%;
 }
 
 .modal .details form{
@@ -209,6 +209,43 @@
     justify-content: center;
 }
 
+.index .arrow{
+    max-width: 60px;
+}
+
+.sms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 16px;
+    background: #cdaee5;
+}
+
+.sms form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.sms form input{
+    border-radius: 16px;
+    height: 24px;
+    border: none;
+    width: 100%;
+}
+
+.sms form button{
+    all: unset;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: #fff;
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 850px) {
     .modal .details{
         padding: 1rem 3rem;
@@ -226,6 +263,10 @@
     }
 
     .modal .details .imgBx{
-        width: 100%;
+        width: 50%;
+    }
+
+    .index .arrow{
+        max-width: 100px;
     }
 }

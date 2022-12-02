@@ -16,14 +16,14 @@ const videosArray = [
   {
     id: 0,
     url: MinCap1,
-    name: 'Capitulo 01 - Primera impresión.',
+    name: 'Capítulo 01 - Primera impresión.',
     description: 'El padre de Carlos descubre que es gay y decide enviarlo a un Centro para "curarse" de su homosexualidad. En este lugar vivirá experiencias desagradables, que serán registradas en una grabadora, que su madre le da antes de internarse.',
     urlVid: 'https://open.spotify.com/episode/5HrrllMIVwQlfzUbhlvP7X'
   },
   {
     id: 1,
     url: MinCap2,
-    name: 'Capitulo 02 - Dios',
+    name: 'Capítulo 02 - Dios',
     description: 'Carlos empieza a cuestionar sobre su sexualidad. En el Centro, comienza las sesiones terapéuticas y Carlos conoce a Daniel, otro joven que está internado por más de 3 meses que cuestiona lo que hacen en el Centro.',
     urlVid: 'https://open.spotify.com/episode/5ofnD3zZoBBVv1l2a04FCB'
   },

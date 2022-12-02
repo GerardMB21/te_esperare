@@ -27,7 +27,7 @@ export default function Home() {
                 />
               </div>
               <p>Instagram</p>
-              <div className="imgBx" style={{ transform: 'rotate(245deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(245deg) rotateY(180deg) translateX(8px)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -38,7 +38,7 @@ export default function Home() {
           </Link>
           <Link href={"podcast"}>
             <section className="podcast">
-              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -65,7 +65,7 @@ export default function Home() {
                 />
               </div>
               <p>Tik Tok</p>
-              <div className="imgBx" style={{ transform: 'rotate(150deg)', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(150deg)' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -76,7 +76,7 @@ export default function Home() {
           </Link>
           <Link href={"twitter"}>
             <section className="twitter">
-              <div className="imgBx" style={{ transform: 'rotate(315deg)',  maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(315deg)' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -116,7 +116,7 @@ export default function Home() {
                 />
               </div>
               <p>Miniserie</p>
-              <div className="imgBx" style={{ transform: 'rotate(225deg) rotateY(180deg)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(225deg) rotateY(180deg)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -126,7 +126,7 @@ export default function Home() {
           </Link>
           <Link href={"premier"}>
             <section className="premier">
-              <div className="imgBx" style={{ transform: 'rotate(315deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(315deg) translateX(8px)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -145,7 +145,7 @@ export default function Home() {
           </Link>
           <Link href={"ustedes"}>
             <section className="twitter">
-              <div className="imgBx" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(45deg) rotateY(180deg) translateX(8px)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
@@ -172,7 +172,7 @@ export default function Home() {
                 />
               </div>
               <p>Tienda</p>
-              <div className="imgBx" style={{ transform: 'rotate(135deg)', margin: '0', maxWidth:'100px' }}>
+              <div className="imgBx arrow" style={{ transform: 'rotate(135deg)', margin: '0' }}>
                 <Image
                   src={Arrow}
                   alt={'arrow'}
