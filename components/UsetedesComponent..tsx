@@ -43,7 +43,7 @@ export default function UstedesComponent() {
             </form>
           </div>
           <div className="sms" style={{ background: '#f9da4a', marginTop: '32px' }}>
-            <h1 style={{ textAlign: 'center' }}>Habla con Beatriz preguntale todas tus dudas 🏳️‍🌈</h1>
+            <h1 style={{ textAlign: 'center' }}>Habla con Beatriz pregúntale todas tus dudas 🏳️‍🌈</h1>
             <div className="imgBx" style={{ borderRadius: '50%', overflow: 'hidden', width: '100px', height: '100px' }}>
                 <Image
                     src={BProfile}
