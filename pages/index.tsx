@@ -11,10 +11,12 @@ import Store from '../public/tienda_te_esperare.png'
 import Rainbow from '../public/rainbow_te_esperare.png'
 import Arrow from '../public/arrow.png'
 import Link from "next/link"
+import Alert from "../components/Alert"
 
 export default function Home() {
   return (
     <div className="index">
+      <Alert />
       <div className="contain">
         <div className="sectionBx">
           <Link href={"instagram"}>
