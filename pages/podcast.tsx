@@ -83,7 +83,7 @@ export default function podcast() {
                 alt='Encerrados en Creho'
               />
             </div>
-            <Link className="listen" href={"https://open.spotify.com/show/4j8yt5zeT2Z8lvamnRAnfq?si=6g2njF8rRHC84Y0ZItuHmg&utm_source=whatsapp&nd=1"} target='_blank'>Escuchalo aqui</Link>
+            <Link className="listen" href={"https://open.spotify.com/show/4j8yt5zeT2Z8lvamnRAnfq?si=6g2njF8rRHC84Y0ZItuHmg&utm_source=whatsapp&nd=1"} target='_blank'>Escúchalo aqui</Link>
           </div>
           <div className="list_videos">
             {
