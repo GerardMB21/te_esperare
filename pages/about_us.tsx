@@ -40,7 +40,7 @@ export default function about_us() {
               alt="Vision"
             />
           </div>
-          <p>El panorama para nuestra productora es la produccion de muchas más historias que puedan ser protagonizadas por distintas construcciones de personajes que comprendan diversidad sexual, étnica y social. Nos vemos reforzando la idea de que la sexualidad es un gran espectro, el cual es único para cada persona, siendo nuestro contenido una forma de verse representado y validado.</p>
+          <p>El panorama para nuestra productora es la producción de muchas más historias que puedan ser protagonizadas por distintas construcciones de personajes que comprendan diversidad sexual, étnica y social. Nos vemos reforzando la idea de que la sexualidad es un gran espectro, el cual es único para cada persona, siendo nuestro contenido una forma de verse representado y validado.</p>
         </div>
       </div>
     </div>

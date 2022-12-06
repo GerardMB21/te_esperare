@@ -27,7 +27,7 @@ export default function UstedesComponent() {
           </div>
           <p style={{ textAlign: "center", fontSize: "2em", marginBottom: "2rem" }}>Gracias por acompañarnos y seguirnos. Si te quedaste con ganas de más:</p>
           <div className="sms" style={{ background: '#cdaee5' }}>
-            <h1 style={{ textAlign: 'center' }}>Habla con Amelia, cuentale de tu amor imposible.</h1>
+            <h1 style={{ textAlign: 'center' }}>Habla con Amelia, cuéntale de tu amor imposible.</h1>
             <div className="imgBx" style={{ borderRadius: '50%', overflow: 'hidden', width: '100px', height: '100px' }}>
                 <Image
                     src={AProfile}
